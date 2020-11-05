@@ -76,8 +76,11 @@ ul.meny li a:hover:not(.hjem) {background-color:#4DA8DA;}
 ul.meny li a.hjem {background-color: #007CC7;}
 
 
-
-
+/*For å gjøre det responsivt, slik at mobiler og tablets får en tilpasset meny.*/
+@media screen and (max-width: 600px) {
+  ul.meny li.right,
+  ul.meny li {float: none;}
+}
 
 /*----staff----*/
 img{
