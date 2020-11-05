@@ -1,6 +1,6 @@
 body { margin:0; }
 
-#hovedside {
+.bakgrunn {
 	background-color: #203647;
 	text-align: center;
 	width: 100%;
@@ -71,16 +71,13 @@ ul.meny li a {
 
 }
 
-ul.meny li a:hover:not(.active) {background-color:#4DA8DA;}
+ul.meny li a:hover:not(.hjem) {background-color:#4DA8DA;}
 
-ul.meny li a.active {background-color: #007CC7;}
+ul.meny li a.hjem {background-color: #007CC7;}
 
-ul.meny li.right {float: right;}
 
-@media screen and (max-width: 600px) {
-  ul.meny li.right,
-  ul.meny li {float: none;}
-}
+
+
 
 /*----staff----*/
 img{
