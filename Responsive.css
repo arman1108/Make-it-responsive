@@ -80,6 +80,11 @@ ul.meny li a:hover:not(.hjem) {background-color:#4DA8DA;}
 
 ul.meny li a.hjem {background-color: #007CC7;}
 
+@media screen and (max-width: 600px) {
+  ul.meny li.right, 
+  ul.meny li {float: none;}
+}
+
 
 
 /*-----tables------*/
@@ -118,7 +123,7 @@ img{
 
 .staff{
     float: left;
-    width: 200px;
+    width:200px;
     padding: 20px;
     color: #ffff;
 
@@ -129,14 +134,20 @@ img{
     clear: both;
     display: table;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .staff {
         width: 100%;
+		float: left;
+		padding:20px;
+
     }
+    
     img{
         height: 300px;
         padding-left: 60px;
     }
 }
+
+
 
 
