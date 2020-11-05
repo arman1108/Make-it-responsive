@@ -83,6 +83,10 @@ ul.meny li.right {float: right;}
 }
 
 /*----staff----*/
+img{
+    height: 300px;
+}
+
 .staff{
     float: left;
     width: 200px;
