@@ -52,7 +52,7 @@ h1 {
 	text-decoration: underline;
 }
 
-ul.topnav {
+ul.meny {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,23 +60,24 @@ ul.topnav {
   background-color:#12232E;
 }
 
-ul.topnav li {float: left;}
+ul.meny li {float: left;}
 
-ul.topnav li a {
-  display: block;
+ul.meny li a {
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+  
 }
 
-ul.topnav li a:hover:not(.active) {background-color:#4DA8DA;}
+ul.meny li a:hover:not(.active) {background-color:#4DA8DA;}
 
-ul.topnav li a.active {background-color: #007CC7;}
+ul.meny li a.active {background-color: #007CC7;}
 
-ul.topnav li.right {float: right;}
+ul.meny li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  ul.meny li.right, 
+  ul.meny li {float: none;}
 }
