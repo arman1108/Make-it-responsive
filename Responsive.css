@@ -80,3 +80,23 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+
+/*----staff----*/
+.staff{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    color: #ffff;
+
+}
+
+.staff-members::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .staff {
+        width: 100%;
+    }
+}
