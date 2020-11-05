@@ -1,0 +1,28 @@
+/* Styling av tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+tr:nth-of-type(odd) {
+    background: #3c5b73
+}
+
+tr:nth-of-type(even) {
+    background: #14354f
+}
+
+th {
+    background: #203647;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-family: Calibri Light, sans-serif;
+}
