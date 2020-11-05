@@ -78,8 +78,8 @@ ul.meny li a.active {background-color: #007CC7;}
 ul.meny li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {float: none;}
+  ul.meny li.right,
+  ul.meny li {float: none;}
 }
 
 /*----staff----*/
