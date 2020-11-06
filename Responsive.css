@@ -160,13 +160,13 @@ img{
 .staff{
     float: left;
     width:200px;
-    padding: 20px;
+    padding: 19px;
     color: #ffff;
 
 }
 .staff-members {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin:auto;
+    width: 100%;
 }
 
 .staff-members::after{
@@ -184,7 +184,6 @@ img{
     
     img{
         height: 300px;
-        padding-left: 60px;
     }
 }
 
