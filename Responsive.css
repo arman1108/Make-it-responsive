@@ -1,5 +1,5 @@
 body { margin:0;
-background-color: #203647 }
+background-color: #203647; }
 
 p {
     font-family: 'Quicksand', sans-serif;
@@ -185,12 +185,16 @@ img{
     clear: both;
     display: table;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .staff {
-        width: 100%;
+    width: 100%;
 		float: left;
-		padding:20px;
+		padding-left: 20px;
 
+    }
+    .staff-members {
+      margin:0;
+      padding:0;
     }
     
     img{
