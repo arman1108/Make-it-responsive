@@ -41,6 +41,11 @@ body { margin:0; }
 	border: solid 2px black;
 	text-align: center;
 }
+.contact p{
+    color: #ffff;
+    background-color: #12232E;
+}
+
 
 h1 {
 	margin: auto;
