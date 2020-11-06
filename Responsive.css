@@ -37,7 +37,7 @@ h2 {
 }
 
 #main {
-
+    padding-bottom: 5%;
 	margin: auto;
 	border: solid 2px black;
 	text-align: center;
@@ -45,14 +45,15 @@ h2 {
 img.bildeMik {
     border: 0px;
     padding: 0px;
-    width: 34%;
-    height: 40%;
+    width: 29%;
+    height: 25%;
 }
 img.bildeFrugal {
     border: 0px;
     padding: 0px;
-    width: 30%;
-    height: 30%;
+    width: 26%;
+    height: 15%;
+
 }
 
 #footer {
@@ -83,7 +84,6 @@ h1 {
 
 h2 {
 	color: white;
-	font-family:;
 	font-size: 40px;
 }
 
@@ -117,12 +117,14 @@ ul.meny li a.hjem {background-color: #007CC7;}
     ul.meny {
         padding-left: 0px;
     }
-    img.bildeMik {
+    #bildeMobil1 {
         width: 100%;
+        height: 100%;
         margin: 0;
     }
-    img.bildeFrugal {
+    #bildeMobil2 {
         width: 100%;
+        height: 100%;
         margin: 0;
     }
 }
