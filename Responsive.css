@@ -170,8 +170,9 @@ img{
 .staff{
     float: left;
     width:200px;
-    padding: 20px;
     color: #ffff;
+    padding-left: 3%;
+
 
 }
 
@@ -187,10 +188,9 @@ img{
 @media only screen and (max-width: 600px) {
     .staff {
         width: 100%;
-		float: left;
-		padding:20px;
-
+        float: left;
     }
+
     
     img{
         height: 300px;
