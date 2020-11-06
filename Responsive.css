@@ -112,7 +112,7 @@ ul.meny li a:hover:not(.hjem) {background-color:#4DA8DA;}
 
 ul.meny li a.hjem {background-color: #007CC7;}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   ul.meny li.right, 
   ul.meny li {float: none;}
     ul.meny {
@@ -185,7 +185,7 @@ img{
     clear: both;
     display: table;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .staff {
     width: 100%;
 		float: left;
