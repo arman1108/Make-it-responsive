@@ -38,11 +38,22 @@ h2 {
 
 #main {
 
-	height: 800px;
 	margin: auto;
 	border: solid 2px black;
 	text-align: center;
  }
+img.bildeMik {
+    border: 0px;
+    padding: 0px;
+    width: 60%;
+    height: 60%;
+}
+img.bildeFrugal {
+    border: 0px;
+    padding: 0px;
+    width: 60%;
+    height: 60%;
+}
 
 #footer {
 	background-color: #12232E;
