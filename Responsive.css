@@ -146,6 +146,17 @@ ul.meny li a.hjem {background-color: #007CC7;}
     ul.meny {
         padding-left: 0px;
     }
+	
+	#bildeMobil1 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    #bildeMobil2 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
 }
 
 
@@ -218,6 +229,7 @@ padding:0;
         padding-left: 60px;
         margin-right: 40px;
     }
+	
 }
 
 .aboutInova {
